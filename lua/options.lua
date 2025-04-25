@@ -71,4 +71,5 @@ vim.opt.ts = 2
 vim.opt.sts = 2
 vim.opt.sw = 2
 vim.opt.expandtab = true
+vim.opt.shell = vim.fn.expand '$HOME/.local/bin/fish'
 -- vim: ts=2 sts=2 sw=2 et
